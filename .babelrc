@@ -1,0 +1,8 @@
+// .babelrc
+{
+  "plugins": ["@babel/plugin-proposal-class-properties"],
+  "presets": [
+    "babel-preset-gatsby",
+    "@emotion/babel-preset-css-prop" // <- add this line
+  ]
+}
